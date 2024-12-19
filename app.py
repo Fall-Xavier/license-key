@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-LICENSE_FILE = "/tmp/licenses.json"
+LICENSE_FILE = "tmp/licenses.json"
 
 def get_key_from_device():
     hostname = platform.node()
